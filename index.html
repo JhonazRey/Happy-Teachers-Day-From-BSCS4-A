@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="https://fonts.googleapis.com/css?family=Alegreya+SC|Allerta+Stencil|Anton|Audiowide|Coiny|Dancing+Script|Diplomata+SC|Do+Hyeon|Erica+One|Faster+One|Fontdiner+Swanky|Freckle+Face|Fredericka+the+Great|Great+Vibes|Hanalei+Fill|Henny+Penny|Homemade+Apple|Indie+Flower|Jua|Megrim|Metal+Mania|Monoton|Monsieur+La+Doulaise|Niconne|Oleo+Script+Swash+Caps|Pacifico|Parisienne|Permanent+Marker|Press+Start+2P|Sacramento|Satisfy|Shojumaru|Special+Elite|Stalinist+One|Tangerine|Ubuntu|UnifrakturCook:700|Yatra+One|Yellowtail|Yesteryear|Nosifer" rel="stylesheet">
+     <style>
+       body {
+    margin:0;
+    color:yellow;
+    font-family:indie flower;
+    font-weight:bold;
+    font-size:30px;
+    text-shadow:0 0 100px yellow,0 0 50px yellow;
+}
+#candle{
+    height:200px;
+    width:30px;
+    background:-webkit-linear-gradient(yellow,orange);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#wick{
+    height:25px;
+    margin-top:-10px;
+    width:5px;
+    background:#3f000f;
+}
+#flame{
+    background:white;
+    height:60px;
+    width:10px;
+    border-radius:50%;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    margin-top:50px;
+    box-shadow:0 0 10px 5px white,
+               0 0 10px 5px white,
+               0 0px 30px 5px orange,
+               0 -20px 50px 10px yellow,
+               0 -5px 28px 10px orange,
+               0 -25px 80px 20px white;
+    animation:move 3s linear infinite ;
+    transform-origin:bottom;
+    display:inline-block ;
+}
+@keyframes move{
+    from{transform:rotate(-7.5deg);}
+    50%{transform:rotate(7.5deg);}
+    to{transform:rotate(-7.5deg);}
+}
+#img{
+    width:100%;
+    position:fixed;
+    left:0;
+    z-index:-1;
+}
+h1{
+    font-family:tangerine;
+    font-size:60px;
+    margin-bottom:0;
+}
+
+button {
+  width:90px;
+  background:yellow;
+  border:none;
+  box-shadow:0 0 10px 5px white,
+               0 0 10px 5px white,
+               0 0px 30px 5px orange,
+               0 -20px 50px 10px yellow,
+               0 -5px 28px 10px orange,
+               0 -25px 80px 20px white;
+}
+
+a{
+  text-decoration:none;
+}
+     </style>    
+    </head>
+    <body bgcolor="black">
+    <center>
+        <div id="flame"></div>
+    <div id="wick"></div>
+    <div id="candle"></div><br>
+    A GOOD TEACHER is like a candle - it consumes itself to LIGHT the way for others.
+    <h1>Happy Teachers' Day</h1>
+    
+    <div align="center" class="p"><button><a href="flower.html">Click</a></button></div>
+    </body>
+</html>
